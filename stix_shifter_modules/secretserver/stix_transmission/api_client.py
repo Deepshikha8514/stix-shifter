@@ -144,7 +144,6 @@ class APIClient():
         payload = "{\"name\": \"Secret Server Events Logs\", \"parameters\": [{\"name\": \"startDate\", \"value\": '%s'} , {\"name\":\"endDate\",\"value\": '%s'}]}" % (
             self.startDate, self.endDate)
         headers = {
-
             'Authorization': self.accessToken,
             'Content-Type': 'application/json'
         }
