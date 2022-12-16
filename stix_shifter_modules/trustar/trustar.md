@@ -23,7 +23,7 @@ will return
 }
 
 ```
-## Converting from Secret Server events STIX
+
 
 ### Transmission Call:
 
